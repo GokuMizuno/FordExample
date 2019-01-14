@@ -30,7 +30,7 @@ func FordExampleZipWrite(){
 	//but for this example, I am being lazy, and just adding them directly
 	var files := []struct {
 		Name, Body string
-	}{
+	}{			//YEAH, THIS DOESN'T YET WORK
 		("file1.txt", )
 		("file2.txt", )
 		("file3.txt", )
