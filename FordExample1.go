@@ -13,7 +13,7 @@ import(
 	"io/ioutil"
 	"log"
 	"os"
-	"rand"
+	"math/rand"
 )
 
 //Write archive
