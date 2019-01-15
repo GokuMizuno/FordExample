@@ -8,7 +8,7 @@ import(
 )
 
 //extern C
-//extern func Cdisp(sentArray string) string
+func Cdisp(sentArray string) string
 
 func coarrayEX(sentArray string){
 //	sentArray []string = "hello world"
