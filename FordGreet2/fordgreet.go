@@ -26,7 +26,7 @@ func main() {
 	ptr := C.malloc(C.sizeof_char * 1024)
 	defer C.free(unsafe.Pointer(ptr))
 
-	size := C.greet&g, (*C.char)(ptr))
+	size := C.greet(&g, (*C.char)(ptr))
 
 	b := C.GoBytes(ptr, size)
 	fmt.Println(string(b))
