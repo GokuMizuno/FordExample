@@ -4,15 +4,16 @@
 package main
 
 import(
-	"os"
+//	"os"	//os not used, per GO compiler
+	"net"
 	"fmt"
-	"log"
+//	"log"	//log not used, per GO compiler
 )
 
 func main(){
 	ifaces, err := net.Interfaces()
 //	if err != nil {  log.Fatal(err)  }
-	if err != nil {  fmt.printf("Error: %s", err)  }
+	if err != nil {  fmt.Printf("Error: %s", err)  }
 
 	for _, i := range ifaces {
 		address, err := i.Addrs()
@@ -24,6 +25,7 @@ func main(){
 			case *net.IPAddr:
 				ip = v.IP
 			}
+//			fmt.Printf("IP address %v\n", ip)
 		}
 	}
 }
