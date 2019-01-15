@@ -86,7 +86,7 @@ func FordExampleCreateStrings(){
 //Write files
 func FordExampleCreateFiles(stringZero, stringOne, stringRand string){
 	var files = []struct{
-	Name, Body strong
+	Name, Body string
 	}{
 		("file1.txt", stringZero)
 		("file2.txt", stringOne)
