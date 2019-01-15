@@ -2,8 +2,8 @@
 //This program creates three strings, one all zeros, one all ones, one random
 //It puts them in three files, then compresses them.
 
-package FordZipExample
-
+//package FordZipExample
+package main
 import(
 	"archive/zip"
 	"bytes"
