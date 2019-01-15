@@ -4,7 +4,7 @@
 #include <iostream.h>
 #include <string.h>
 
-extern char Cdisp(string exArry)
+char Cdisp(string exArry)
 {
 	printf(exArry);
 	return "Success";
