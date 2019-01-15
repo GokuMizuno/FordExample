@@ -3,7 +3,7 @@
 
 #include <iostream.h>
 
-public char Cadd(*char exArry)
+public char Cdisp(*char exArry)
 {
 	printf(exArry);
 	return "Success";

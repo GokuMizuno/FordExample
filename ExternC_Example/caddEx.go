@@ -8,14 +8,14 @@ import(
 )
 
 func coarrayEX(sentArray string){
-//	sentArray = "hello world"
+//	sentArray []string = "hello world"
 
 	//extern C
-	returnedArray string = func Cdisp(*byte sentArray)
-		fmt.printf("%s\n", returnedArray)
+	returnedArray []string = Cdisp(*byte sentArray)
+	fmt.printf("%s\n", returnedArray)
 }
 
-func main
+func main(){
 	go coarrayEX("hello")
 	go coarrayEX("world")
 }
