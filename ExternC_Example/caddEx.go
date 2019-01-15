@@ -7,11 +7,14 @@ import(
 	"fmt"
 )
 
+//extern C
+//extern func Cdisp(sentArray string) string
+
 func coarrayEX(sentArray string){
 //	sentArray []string = "hello world"
 
 	//extern C
-	returnedArray string = Cdisp(*byte sentArray)
+	returnedArray := Cdisp(sentArray)
 	fmt.Printf("%s\n", returnedArray)
 }
 
