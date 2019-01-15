@@ -71,7 +71,7 @@ func FordExampleZipRead() {
 
 //Write random data
 func FordExampleCreateStrings(){
-	stringZero, stringOne, stringRand []string;
+	stringZero, stringOne, stringRand string;
 
 	for i=0;i<1001;i++ {
 		stringZero += 0
