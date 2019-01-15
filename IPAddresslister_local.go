@@ -15,7 +15,7 @@ func main(){
 	if err != nil {  fmt.printf("Error: %s", err)  }
 
 	for _, i := range ifaces {
-		address, err "= i.Addrs()
+		address, err := i.Addrs()
 		for _, addr := range address{
 			var ip net.IP
 			switch v := addr.(type) {
