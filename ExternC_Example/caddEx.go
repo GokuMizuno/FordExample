@@ -11,8 +11,8 @@ func coarrayEX(sentArray string){
 //	sentArray []string = "hello world"
 
 	//extern C
-	returnedArray []string = Cdisp(*byte sentArray)
-	fmt.printf("%s\n", returnedArray)
+	returnedArray string = Cdisp(*byte sentArray)
+	fmt.Printf("%s\n", returnedArray)
 }
 
 func main(){
